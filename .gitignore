@@ -1,2 +1,8 @@
 *.DS_Store
-.claude/
+.claude/*
+!.claude/hooks/
+!.claude/hooks/**
+!.claude/settings.json
+node_modules/
+.github/scripts/package.json
+.github/scripts/bun.lock
